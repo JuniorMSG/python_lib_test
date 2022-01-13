@@ -5,8 +5,14 @@
 
 ![image](https://user-images.githubusercontent.com/22822369/149247503-26d3db3c-73b9-4034-bd54-8a570b5b45cb.png)
 
-## python_gui
+## :hammer: Tech Stack
 ![Stack](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
+
+### :fire: Project description
+    파이썬의 tkinter로 GUI를 구현하고
+    구현 정보에 대한 코드 저장용 Repo 
+    
+
 
 ### use tkinter 
 ```
