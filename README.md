@@ -9,8 +9,18 @@
 ```
 from tkinter import *
 win = Tk()
-win.getometry("2000x2000")
+
+# Size
+win.geometry("1000x500")
+
+# Title
 win.title("python-gui-coding")
-win.option("*Font", "맑은고딕 25")
+
+# Font
+win.option_add("*Font", "맑은고딕 25")
+
+# BackGroud Color
+win.configure(bg="red")
+
 win.mainloop()
 ```
