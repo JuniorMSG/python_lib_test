@@ -10,8 +10,9 @@
 
 ### :fire: Project description
     파이썬의 tkinter로 GUI를 구현하고
-    구현 정보에 대한 코드 저장용 Repo 
-    
+    자주 구현하는 GUI에 대한
+    개인 라이브러리용 repo
+
 
 
 ### use tkinter 
