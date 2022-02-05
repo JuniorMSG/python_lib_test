@@ -9,7 +9,7 @@
 ![Stack](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
 
 ### :fire: Project description
-    파이썬의 tkinter로 GUI를 구현하고
+    파이썬의 tkinter or pyqt5 GUI를 구현하고 
     자주 구현하는 GUI에 대한
     개인 라이브러리용 repo
 
