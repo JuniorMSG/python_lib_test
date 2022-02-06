@@ -8,6 +8,11 @@
 ## :hammer: Tech Stack
 ![Stack](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
 
+
+### :hammer: etc Error List
+pyinstaller 사용시 exe파일에서 크롬드라이버 뜨는 에러
+https://codechacha.com/ko/python-selenium-remove-chromedriver-console-with-pyinstall/
+
 ### :fire: Project description
     파이썬의 tkinter or pyqt5 GUI를 구현하고 
     자주 구현하는 GUI에 대한
