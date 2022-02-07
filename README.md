@@ -8,7 +8,7 @@
 ## :hammer: Tech Stack
 ![Stack](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
 
-
+PyQt5 vs tkinter
 ### :hammer: etc Error List
 pyinstaller 사용시 exe파일에서 크롬드라이버 뜨는 에러 <br>
 https://codechacha.com/ko/python-selenium-remove-chromedriver-console-with-pyinstall/
