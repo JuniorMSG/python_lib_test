@@ -13,10 +13,15 @@ PyQt5 vs tkinter
 pyinstaller 사용시 exe파일에서 크롬드라이버 뜨는 에러 <br>
 https://codechacha.com/ko/python-selenium-remove-chromedriver-console-with-pyinstall/
 
+###  Thread
+https://isolution.pro/ko/q/so77767125/seuleding-jung-msgbox-olyu-gui-beullog-dadhim
+
 ### :fire: Project description
     파이썬의 tkinter or pyqt5 GUI를 구현하고 
     자주 구현하는 GUI에 대한
     개인 라이브러리용 repo
+
+
 
 
 
