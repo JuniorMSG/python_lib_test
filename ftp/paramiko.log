@@ -1,0 +1,1669 @@
+DEB [20220215-10:36:08.428] thr=1   paramiko.transport: starting thread (client mode): 0x435e4048
+DEB [20220215-10:36:08.429] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:36:08.433] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:36:08.433] thr=1   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:36:08.435] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:36:08.435] thr=1   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:36:08.435] thr=1   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:36:08.435] thr=1   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: client lang: <none>
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: server lang: <none>
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: kex follows: False
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:36:08.436] thr=1   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:36:08.437] thr=1   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:36:08.437] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:36:08.437] thr=1   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:36:08.437] thr=1   paramiko.transport: Compression: none
+DEB [20220215-10:36:08.437] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:36:08.479] thr=1   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:36:08.480] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:36:08.480] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:36:08.481] thr=1   paramiko.transport: userauth is OK
+INF [20220215-10:36:08.481] thr=1   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:36:18.242] thr=3   paramiko.transport: starting thread (client mode): 0x435ef828
+DEB [20220215-10:36:18.242] thr=3   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:36:18.246] thr=3   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:36:18.246] thr=3   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:36:18.247] thr=3   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:36:18.248] thr=3   paramiko.transport: client lang: <none>
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: server lang: <none>
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: kex follows: False
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: Compression: none
+DEB [20220215-10:36:18.249] thr=3   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:36:18.289] thr=3   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:36:18.290] thr=3   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:36:18.290] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:36:18.291] thr=3   paramiko.transport: userauth is OK
+INF [20220215-10:36:18.291] thr=3   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:36:32.349] thr=4   paramiko.transport: starting thread (client mode): 0x43625f98
+DEB [20220215-10:36:32.349] thr=4   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:36:32.352] thr=4   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:36:32.352] thr=4   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:36:32.353] thr=4   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:36:32.353] thr=4   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:36:32.353] thr=4   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: client lang: <none>
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: server lang: <none>
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: kex follows: False
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:36:32.354] thr=4   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:36:32.355] thr=4   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:36:32.355] thr=4   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:36:32.355] thr=4   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:36:32.355] thr=4   paramiko.transport: Compression: none
+DEB [20220215-10:36:32.355] thr=4   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:36:32.395] thr=4   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:36:32.395] thr=4   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:36:32.396] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:36:32.397] thr=4   paramiko.transport: userauth is OK
+INF [20220215-10:36:32.397] thr=4   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:36:39.006] thr=5   paramiko.transport: starting thread (client mode): 0x4350a5f8
+DEB [20220215-10:36:39.006] thr=5   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:36:39.011] thr=5   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:36:39.011] thr=5   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:36:39.012] thr=5   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:36:39.012] thr=5   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: client lang: <none>
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: server lang: <none>
+DEB [20220215-10:36:39.013] thr=5   paramiko.transport: kex follows: False
+DEB [20220215-10:36:39.014] thr=5   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:36:39.014] thr=5   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:36:39.014] thr=5   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:36:39.014] thr=5   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:36:39.014] thr=5   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:36:39.014] thr=5   paramiko.transport: Compression: none
+DEB [20220215-10:36:39.014] thr=5   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:36:39.054] thr=5   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:36:39.055] thr=5   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:36:39.055] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:36:39.056] thr=5   paramiko.transport: userauth is OK
+INF [20220215-10:36:39.056] thr=5   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:36:42.915] thr=6   paramiko.transport: starting thread (client mode): 0x43628588
+DEB [20220215-10:36:42.915] thr=6   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:36:42.920] thr=6   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:36:42.921] thr=6   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:36:42.922] thr=6   paramiko.transport: client lang: <none>
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: server lang: <none>
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: kex follows: False
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: Compression: none
+DEB [20220215-10:36:42.923] thr=6   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:36:42.964] thr=6   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:36:42.964] thr=6   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:36:42.965] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:36:42.965] thr=6   paramiko.transport: userauth is OK
+INF [20220215-10:36:42.966] thr=6   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:37:23.729] thr=7   paramiko.transport: starting thread (client mode): 0x43625c50
+DEB [20220215-10:37:23.729] thr=7   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:37:23.729] thr=7   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:37:23.729] thr=7   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:37:23.730] thr=7   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:37:23.730] thr=7   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: client lang: <none>
+DEB [20220215-10:37:23.731] thr=7   paramiko.transport: server lang: <none>
+DEB [20220215-10:37:23.732] thr=7   paramiko.transport: kex follows: False
+DEB [20220215-10:37:23.732] thr=7   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:37:23.732] thr=7   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:37:23.732] thr=7   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:37:23.732] thr=7   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:37:23.732] thr=7   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:37:23.732] thr=7   paramiko.transport: Compression: none
+DEB [20220215-10:37:23.732] thr=7   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:37:23.774] thr=7   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:37:23.774] thr=7   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:37:23.775] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:37:23.775] thr=7   paramiko.transport: userauth is OK
+INF [20220215-10:37:23.776] thr=7   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:40:03.951] thr=8   paramiko.transport: starting thread (client mode): 0x44634ba8
+DEB [20220215-10:40:03.951] thr=8   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:40:03.958] thr=8   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:40:03.958] thr=8   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:40:03.959] thr=8   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:40:03.959] thr=8   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:40:03.959] thr=8   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:40:03.959] thr=8   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:40:03.959] thr=8   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:40:03.959] thr=8   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:40:03.959] thr=8   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: client lang: <none>
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: server lang: <none>
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: kex follows: False
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:40:03.960] thr=8   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:40:03.961] thr=8   paramiko.transport: Compression: none
+DEB [20220215-10:40:03.961] thr=8   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:40:04.197] thr=8   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:40:04.198] thr=8   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:40:04.198] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:40:04.200] thr=8   paramiko.transport: userauth is OK
+INF [20220215-10:40:04.202] thr=8   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:40:08.219] thr=9   paramiko.transport: starting thread (client mode): 0x44645080
+DEB [20220215-10:40:08.219] thr=9   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:40:08.236] thr=9   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:40:08.236] thr=9   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:40:08.237] thr=9   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:40:08.237] thr=9   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: client lang: <none>
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: server lang: <none>
+DEB [20220215-10:40:08.238] thr=9   paramiko.transport: kex follows: False
+DEB [20220215-10:40:08.239] thr=9   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:40:08.239] thr=9   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:40:08.239] thr=9   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:40:08.239] thr=9   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:40:08.239] thr=9   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:40:08.239] thr=9   paramiko.transport: Compression: none
+DEB [20220215-10:40:08.239] thr=9   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:40:08.297] thr=9   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:40:08.298] thr=9   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:40:08.299] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:40:08.300] thr=9   paramiko.transport: userauth is OK
+INF [20220215-10:40:08.301] thr=9   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:42:16.798] thr=10  paramiko.transport: starting thread (client mode): 0x44623748
+DEB [20220215-10:42:16.799] thr=10  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:42:16.804] thr=10  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:42:16.804] thr=10  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:42:16.805] thr=10  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: client lang: <none>
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: server lang: <none>
+DEB [20220215-10:42:16.806] thr=10  paramiko.transport: kex follows: False
+DEB [20220215-10:42:16.807] thr=10  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:42:16.807] thr=10  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:42:16.807] thr=10  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:42:16.807] thr=10  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:42:16.807] thr=10  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:42:16.807] thr=10  paramiko.transport: Compression: none
+DEB [20220215-10:42:16.807] thr=10  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:42:16.848] thr=10  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:42:16.849] thr=10  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:42:16.849] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:42:16.850] thr=10  paramiko.transport: userauth is OK
+INF [20220215-10:42:16.851] thr=10  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:42:20.631] thr=11  paramiko.transport: starting thread (client mode): 0x44645ba8
+DEB [20220215-10:42:20.632] thr=11  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:42:20.637] thr=11  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:42:20.637] thr=11  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:42:20.638] thr=11  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: client lang: <none>
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: server lang: <none>
+DEB [20220215-10:42:20.639] thr=11  paramiko.transport: kex follows: False
+DEB [20220215-10:42:20.640] thr=11  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:42:20.640] thr=11  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:42:20.640] thr=11  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:42:20.640] thr=11  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:42:20.640] thr=11  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:42:20.640] thr=11  paramiko.transport: Compression: none
+DEB [20220215-10:42:20.640] thr=11  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:42:20.681] thr=11  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:42:20.681] thr=11  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:42:20.682] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:42:20.683] thr=11  paramiko.transport: userauth is OK
+INF [20220215-10:42:20.684] thr=11  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:42:30.750] thr=12  paramiko.transport: starting thread (client mode): 0x44643b38
+DEB [20220215-10:42:30.750] thr=12  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:42:30.758] thr=12  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:42:30.758] thr=12  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:42:30.760] thr=12  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:42:30.760] thr=12  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:42:30.760] thr=12  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:42:30.760] thr=12  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:42:30.760] thr=12  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:42:30.760] thr=12  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:42:30.761] thr=12  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:42:30.761] thr=12  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:42:30.761] thr=12  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:42:30.761] thr=12  paramiko.transport: client lang: <none>
+DEB [20220215-10:42:30.761] thr=12  paramiko.transport: server lang: <none>
+DEB [20220215-10:42:30.761] thr=12  paramiko.transport: kex follows: False
+DEB [20220215-10:42:30.761] thr=12  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:42:30.761] thr=12  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:42:30.762] thr=12  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:42:30.762] thr=12  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:42:30.762] thr=12  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:42:30.762] thr=12  paramiko.transport: Compression: none
+DEB [20220215-10:42:30.762] thr=12  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:42:30.806] thr=12  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:42:30.806] thr=12  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:42:30.807] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:42:30.808] thr=12  paramiko.transport: userauth is OK
+INF [20220215-10:42:30.809] thr=12  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:42:37.042] thr=13  paramiko.transport: starting thread (client mode): 0x44643e80
+DEB [20220215-10:42:37.043] thr=13  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:42:37.062] thr=13  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:42:37.062] thr=13  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:42:37.064] thr=13  paramiko.transport: client lang: <none>
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: server lang: <none>
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: kex follows: False
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: Compression: none
+DEB [20220215-10:42:37.065] thr=13  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:42:37.106] thr=13  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:42:37.107] thr=13  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:42:37.107] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:42:37.109] thr=13  paramiko.transport: userauth is OK
+INF [20220215-10:42:37.111] thr=13  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:43:27.120] thr=14  paramiko.transport: starting thread (client mode): 0x44662588
+DEB [20220215-10:43:27.121] thr=14  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:43:27.126] thr=14  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:43:27.126] thr=14  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:43:27.127] thr=14  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:43:27.127] thr=14  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:43:27.127] thr=14  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:43:27.127] thr=14  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: client lang: <none>
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: server lang: <none>
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: kex follows: False
+DEB [20220215-10:43:27.128] thr=14  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:43:27.129] thr=14  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:43:27.129] thr=14  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:43:27.129] thr=14  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:43:27.129] thr=14  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:43:27.129] thr=14  paramiko.transport: Compression: none
+DEB [20220215-10:43:27.129] thr=14  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:43:27.169] thr=14  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:43:27.170] thr=14  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:43:27.170] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:43:27.171] thr=14  paramiko.transport: userauth is OK
+INF [20220215-10:43:27.172] thr=14  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:43:32.291] thr=15  paramiko.transport: starting thread (client mode): 0x43628080
+DEB [20220215-10:43:32.291] thr=15  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:43:32.296] thr=15  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:43:32.296] thr=15  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:43:32.297] thr=15  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:43:32.297] thr=15  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: client lang: <none>
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: server lang: <none>
+DEB [20220215-10:43:32.298] thr=15  paramiko.transport: kex follows: False
+DEB [20220215-10:43:32.299] thr=15  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:43:32.299] thr=15  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:43:32.299] thr=15  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:43:32.299] thr=15  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:43:32.299] thr=15  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:43:32.299] thr=15  paramiko.transport: Compression: none
+DEB [20220215-10:43:32.299] thr=15  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:43:32.339] thr=15  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:43:32.340] thr=15  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:43:32.340] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:43:32.341] thr=15  paramiko.transport: userauth is OK
+INF [20220215-10:43:32.341] thr=15  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:43:37.437] thr=16  paramiko.transport: starting thread (client mode): 0x4469ce80
+DEB [20220215-10:43:37.438] thr=16  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:43:37.442] thr=16  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:43:37.442] thr=16  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:43:37.443] thr=16  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: client lang: <none>
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: server lang: <none>
+DEB [20220215-10:43:37.444] thr=16  paramiko.transport: kex follows: False
+DEB [20220215-10:43:37.445] thr=16  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:43:37.445] thr=16  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:43:37.445] thr=16  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:43:37.445] thr=16  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:43:37.445] thr=16  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:43:37.445] thr=16  paramiko.transport: Compression: none
+DEB [20220215-10:43:37.445] thr=16  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:43:37.485] thr=16  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:43:37.486] thr=16  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:43:37.486] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:43:37.487] thr=16  paramiko.transport: userauth is OK
+INF [20220215-10:43:37.487] thr=16  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:43:59.630] thr=17  paramiko.transport: starting thread (client mode): 0x44668c88
+DEB [20220215-10:43:59.630] thr=17  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:43:59.637] thr=17  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:43:59.637] thr=17  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:43:59.639] thr=17  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:43:59.639] thr=17  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:43:59.639] thr=17  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:43:59.639] thr=17  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:43:59.639] thr=17  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:43:59.639] thr=17  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:43:59.639] thr=17  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: client lang: <none>
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: server lang: <none>
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: kex follows: False
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:43:59.640] thr=17  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:43:59.641] thr=17  paramiko.transport: Compression: none
+DEB [20220215-10:43:59.641] thr=17  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:43:59.683] thr=17  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:43:59.684] thr=17  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:43:59.685] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:43:59.686] thr=17  paramiko.transport: userauth is OK
+INF [20220215-10:43:59.688] thr=17  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:45:26.557] thr=18  paramiko.transport: starting thread (client mode): 0x446431d0
+DEB [20220215-10:45:26.557] thr=18  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:45:26.558] thr=18  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:45:26.558] thr=18  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:45:26.559] thr=18  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:45:26.559] thr=18  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:45:26.559] thr=18  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:45:26.559] thr=18  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:45:26.559] thr=18  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:45:26.560] thr=18  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:45:26.560] thr=18  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:45:26.560] thr=18  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:45:26.560] thr=18  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:45:26.560] thr=18  paramiko.transport: client lang: <none>
+DEB [20220215-10:45:26.560] thr=18  paramiko.transport: server lang: <none>
+DEB [20220215-10:45:26.560] thr=18  paramiko.transport: kex follows: False
+DEB [20220215-10:45:26.561] thr=18  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:45:26.561] thr=18  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:45:26.561] thr=18  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:45:26.561] thr=18  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:45:26.561] thr=18  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:45:26.561] thr=18  paramiko.transport: Compression: none
+DEB [20220215-10:45:26.562] thr=18  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:45:26.650] thr=18  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:45:26.651] thr=18  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:45:26.652] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:45:26.654] thr=18  paramiko.transport: userauth is OK
+INF [20220215-10:45:26.658] thr=18  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:45:54.525] thr=19  paramiko.transport: starting thread (client mode): 0x44643a20
+DEB [20220215-10:45:54.525] thr=19  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:45:54.529] thr=19  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:45:54.529] thr=19  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:45:54.530] thr=19  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:45:54.530] thr=19  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:45:54.530] thr=19  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:45:54.530] thr=19  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: client lang: <none>
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: server lang: <none>
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: kex follows: False
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:45:54.531] thr=19  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:45:54.532] thr=19  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:45:54.532] thr=19  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:45:54.532] thr=19  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:45:54.532] thr=19  paramiko.transport: Compression: none
+DEB [20220215-10:45:54.532] thr=19  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:45:54.571] thr=19  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:45:54.572] thr=19  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:45:54.572] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:45:54.573] thr=19  paramiko.transport: userauth is OK
+INF [20220215-10:45:54.574] thr=19  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:47:22.945] thr=20  paramiko.transport: starting thread (client mode): 0x446780f0
+DEB [20220215-10:47:22.945] thr=20  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+ERR [20220215-10:47:22.947] thr=20  paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+ERR [20220215-10:47:22.951] thr=20  paramiko.transport: Traceback (most recent call last):
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\transport.py", line 2270, in _check_banner
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\packet.py", line 380, in readline
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\packet.py", line 607, in _read_timeout
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport:     x = self.__socket.recv(128)
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport: ConnectionResetError: [WinError 10054] 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport: 
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport: 
+ERR [20220215-10:47:22.952] thr=20  paramiko.transport: Traceback (most recent call last):
+ERR [20220215-10:47:22.953] thr=20  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\transport.py", line 2093, in run
+ERR [20220215-10:47:22.953] thr=20  paramiko.transport:     self._check_banner()
+ERR [20220215-10:47:22.953] thr=20  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\transport.py", line 2275, in _check_banner
+ERR [20220215-10:47:22.953] thr=20  paramiko.transport:     "Error reading SSH protocol banner" + str(e)
+ERR [20220215-10:47:22.953] thr=20  paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+ERR [20220215-10:47:22.953] thr=20  paramiko.transport: 
+DEB [20220215-10:47:32.059] thr=21  paramiko.transport: starting thread (client mode): 0x44692438
+DEB [20220215-10:47:32.059] thr=21  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:47:32.061] thr=21  paramiko.transport: Banner: 220 Hello, I'm freeFTPd 1.0
+DEB [20220215-10:47:32.061] thr=21  paramiko.transport: Banner: 500 Command not understood
+ERR [20220215-10:47:34.080] thr=21  paramiko.transport: Exception (client): Error reading SSH protocol banner
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport: Traceback (most recent call last):
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\transport.py", line 2270, in _check_banner
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\packet.py", line 380, in readline
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\packet.py", line 622, in _read_timeout
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport:     raise socket.timeout()
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport: socket.timeout
+ERR [20220215-10:47:34.081] thr=21  paramiko.transport: 
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport: 
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport: Traceback (most recent call last):
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\transport.py", line 2093, in run
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport:     self._check_banner()
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport:   File "C:\Users\ngcc\.conda\envs\cub\lib\site-packages\paramiko\transport.py", line 2275, in _check_banner
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport:     "Error reading SSH protocol banner" + str(e)
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+ERR [20220215-10:47:34.082] thr=21  paramiko.transport: 
+DEB [20220215-10:48:57.895] thr=22  paramiko.transport: starting thread (client mode): 0x44678278
+DEB [20220215-10:48:57.895] thr=22  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:48:57.900] thr=22  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:48:57.900] thr=22  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:48:57.901] thr=22  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:48:57.901] thr=22  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:48:57.901] thr=22  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:48:57.901] thr=22  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: client lang: <none>
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: server lang: <none>
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: kex follows: False
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:48:57.902] thr=22  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:48:57.903] thr=22  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:48:57.903] thr=22  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:48:57.903] thr=22  paramiko.transport: Compression: none
+DEB [20220215-10:48:57.903] thr=22  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:48:57.943] thr=22  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:48:57.943] thr=22  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:48:57.944] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:48:57.944] thr=22  paramiko.transport: userauth is OK
+INF [20220215-10:48:57.945] thr=22  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:49:05.101] thr=23  paramiko.transport: starting thread (client mode): 0x44692cf8
+DEB [20220215-10:49:05.102] thr=23  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:49:05.105] thr=23  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:49:05.105] thr=23  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:49:05.107] thr=23  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: client lang: <none>
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: server lang: <none>
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: kex follows: False
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:49:05.108] thr=23  paramiko.transport: Compression: none
+DEB [20220215-10:49:05.109] thr=23  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:49:05.148] thr=23  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:49:05.149] thr=23  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:49:05.149] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:49:05.150] thr=23  paramiko.transport: userauth is OK
+INF [20220215-10:49:05.150] thr=23  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:49:39.007] thr=24  paramiko.transport: starting thread (client mode): 0x4469c668
+DEB [20220215-10:49:39.007] thr=24  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:49:39.011] thr=24  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:49:39.011] thr=24  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:49:39.012] thr=24  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: client lang: <none>
+DEB [20220215-10:49:39.013] thr=24  paramiko.transport: server lang: <none>
+DEB [20220215-10:49:39.014] thr=24  paramiko.transport: kex follows: False
+DEB [20220215-10:49:39.014] thr=24  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:49:39.014] thr=24  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:49:39.014] thr=24  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:49:39.014] thr=24  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:49:39.014] thr=24  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:49:39.014] thr=24  paramiko.transport: Compression: none
+DEB [20220215-10:49:39.014] thr=24  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:49:39.055] thr=24  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:49:39.055] thr=24  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:49:39.056] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:49:39.056] thr=24  paramiko.transport: userauth is OK
+INF [20220215-10:49:39.056] thr=24  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:49:59.914] thr=25  paramiko.transport: starting thread (client mode): 0x446b3240
+DEB [20220215-10:49:59.915] thr=25  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:49:59.919] thr=25  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:49:59.919] thr=25  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:49:59.921] thr=25  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:49:59.921] thr=25  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:49:59.921] thr=25  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:49:59.921] thr=25  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:49:59.921] thr=25  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:49:59.921] thr=25  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:49:59.921] thr=25  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:49:59.921] thr=25  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: client lang: <none>
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: server lang: <none>
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: kex follows: False
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:49:59.922] thr=25  paramiko.transport: Compression: none
+DEB [20220215-10:49:59.923] thr=25  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:49:59.963] thr=25  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:49:59.963] thr=25  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:49:59.964] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:49:59.964] thr=25  paramiko.transport: userauth is OK
+INF [20220215-10:49:59.964] thr=25  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:50:21.165] thr=26  paramiko.transport: starting thread (client mode): 0x44692b38
+DEB [20220215-10:50:21.166] thr=26  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:50:21.170] thr=26  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:50:21.171] thr=26  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:50:21.171] thr=26  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: client lang: <none>
+DEB [20220215-10:50:21.172] thr=26  paramiko.transport: server lang: <none>
+DEB [20220215-10:50:21.173] thr=26  paramiko.transport: kex follows: False
+DEB [20220215-10:50:21.173] thr=26  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:50:21.173] thr=26  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:50:21.173] thr=26  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:50:21.173] thr=26  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:50:21.173] thr=26  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:50:21.173] thr=26  paramiko.transport: Compression: none
+DEB [20220215-10:50:21.173] thr=26  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:50:21.213] thr=26  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:50:21.214] thr=26  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:50:21.214] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:50:21.215] thr=26  paramiko.transport: userauth is OK
+INF [20220215-10:50:21.215] thr=26  paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:53:21.226] thr=27  paramiko.transport: starting thread (client mode): 0x44681f60
+DEB [20220215-10:53:21.226] thr=27  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:53:21.226] thr=27  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:53:21.227] thr=27  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: client compress: zlib, none
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: server compress: zlib, none
+DEB [20220215-10:53:21.228] thr=27  paramiko.transport: client lang: <none>
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: server lang: <none>
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: kex follows: False
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: Compression: none
+DEB [20220215-10:53:21.229] thr=27  paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:53:21.268] thr=27  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:53:21.269] thr=27  paramiko.transport: Switch to new keys ...
+DEB [20220215-10:53:56.632] thr=1   paramiko.transport: starting thread (client mode): 0xe677f2e8
+DEB [20220215-10:53:56.633] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:53:56.633] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:53:56.633] thr=1   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:53:56.635] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:53:56.635] thr=1   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:53:56.635] thr=1   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:53:56.635] thr=1   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:53:56.635] thr=1   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:53:56.635] thr=1   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:53:56.635] thr=1   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: client lang: <none>
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: server lang: <none>
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: kex follows: False
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:53:56.636] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:53:56.637] thr=1   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:53:56.637] thr=1   paramiko.transport: Compression: none
+DEB [20220215-10:53:56.637] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:53:56.712] thr=1   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:53:56.712] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:53:56.713] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:53:56.714] thr=1   paramiko.transport: userauth is OK
+INF [20220215-10:53:56.715] thr=1   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:53:56.716] thr=1   paramiko.transport: EOF in transport thread
+DEB [20220215-10:54:08.651] thr=1   paramiko.transport: starting thread (client mode): 0xa078c080
+DEB [20220215-10:54:08.652] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:54:08.658] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:54:08.658] thr=1   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:54:08.660] thr=1   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: client lang: <none>
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: server lang: <none>
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: kex follows: False
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: Compression: none
+DEB [20220215-10:54:08.661] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:54:08.702] thr=1   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:54:08.703] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:54:08.703] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:54:08.704] thr=1   paramiko.transport: userauth is OK
+INF [20220215-10:54:08.704] thr=1   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:54:13.120] thr=3   paramiko.transport: starting thread (client mode): 0xa08a93c8
+DEB [20220215-10:54:13.121] thr=3   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:54:13.126] thr=3   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:54:13.126] thr=3   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:54:13.127] thr=3   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:54:13.127] thr=3   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:54:13.127] thr=3   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:54:13.127] thr=3   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: client lang: <none>
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: server lang: <none>
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: kex follows: False
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:54:13.128] thr=3   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:54:13.129] thr=3   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:54:13.129] thr=3   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:54:13.129] thr=3   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:54:13.129] thr=3   paramiko.transport: Compression: none
+DEB [20220215-10:54:13.129] thr=3   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:54:13.169] thr=3   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:54:13.170] thr=3   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:54:13.170] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:54:13.171] thr=3   paramiko.transport: userauth is OK
+INF [20220215-10:54:13.172] thr=3   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:54:14.185] thr=4   paramiko.transport: starting thread (client mode): 0xa08a9f28
+DEB [20220215-10:54:14.185] thr=4   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:54:14.190] thr=4   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:54:14.190] thr=4   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:54:14.191] thr=4   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:54:14.191] thr=4   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:54:14.191] thr=4   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:54:14.191] thr=4   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:54:14.191] thr=4   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: client lang: <none>
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: server lang: <none>
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: kex follows: False
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:54:14.192] thr=4   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:54:14.193] thr=4   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:54:14.193] thr=4   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:54:14.193] thr=4   paramiko.transport: Compression: none
+DEB [20220215-10:54:14.193] thr=4   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:54:14.233] thr=4   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:54:14.233] thr=4   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:54:14.234] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:54:14.235] thr=4   paramiko.transport: userauth is OK
+INF [20220215-10:54:14.235] thr=4   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:54:20.860] thr=5   paramiko.transport: starting thread (client mode): 0xa08b6f98
+DEB [20220215-10:54:20.860] thr=5   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:54:20.865] thr=5   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:54:20.865] thr=5   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:54:20.866] thr=5   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:54:20.866] thr=5   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:54:20.866] thr=5   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:54:20.866] thr=5   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:54:20.866] thr=5   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:54:20.866] thr=5   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:54:20.866] thr=5   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:54:20.866] thr=5   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: client lang: <none>
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: server lang: <none>
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: kex follows: False
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:54:20.867] thr=5   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:54:20.868] thr=5   paramiko.transport: Compression: none
+DEB [20220215-10:54:20.868] thr=5   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:54:20.908] thr=5   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:54:20.909] thr=5   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:54:20.909] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-10:54:20.910] thr=5   paramiko.transport: userauth is OK
+INF [20220215-10:54:20.910] thr=5   paramiko.transport: Authentication (password) failed.
+DEB [20220215-10:59:43.505] thr=1   paramiko.transport: starting thread (client mode): 0xf9204a20
+DEB [20220215-10:59:43.506] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-10:59:43.506] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-10:59:43.506] thr=1   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-10:59:43.508] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-10:59:43.508] thr=1   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-10:59:43.508] thr=1   paramiko.transport: server key: ssh-rsa
+DEB [20220215-10:59:43.508] thr=1   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:59:43.508] thr=1   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-10:59:43.508] thr=1   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:59:43.508] thr=1   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: client compress: zlib, none
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: server compress: zlib, none
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: client lang: <none>
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: server lang: <none>
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: kex follows: False
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-10:59:43.509] thr=1   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-10:59:43.510] thr=1   paramiko.transport: Compression: none
+DEB [20220215-10:59:43.510] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20220215-10:59:43.549] thr=1   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-10:59:43.550] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20220215-10:59:43.551] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-10:59:43.551] thr=1   paramiko.transport: userauth is OK
+DEB [20220215-10:59:43.551] thr=1   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-10:59:43.551] thr=1   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-10:59:43.551] thr=1   paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-10:59:43.551] thr=1   paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-10:59:43.553] thr=1   paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-10:59:43.553] thr=1   paramiko.transport: Allowed methods: ['']
+DEB [20220215-10:59:45.256] thr=1   paramiko.transport: EOF in transport thread
+DEB [20220215-11:00:05.814] thr=1   paramiko.transport: starting thread (client mode): 0x3085ad30
+DEB [20220215-11:00:05.815] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:00:05.815] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:00:05.815] thr=1   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:00:05.818] thr=1   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: client lang: <none>
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: server lang: <none>
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: kex follows: False
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:00:05.819] thr=1   paramiko.transport: Compression: none
+DEB [20220215-11:00:05.820] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:00:05.859] thr=1   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:00:05.860] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:00:05.860] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:00:05.861] thr=1   paramiko.transport: userauth is OK
+DEB [20220215-11:00:05.861] thr=1   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:00:05.861] thr=1   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:00:05.861] thr=1   paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:00:05.861] thr=1   paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:00:05.863] thr=1   paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:00:05.863] thr=1   paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:01:17.153] thr=3   paramiko.transport: starting thread (client mode): 0x30fe04a8
+DEB [20220215-11:01:17.153] thr=3   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:01:17.157] thr=3   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:01:17.158] thr=3   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:01:17.159] thr=3   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: client lang: <none>
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: server lang: <none>
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: kex follows: False
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:01:17.160] thr=3   paramiko.transport: Compression: none
+DEB [20220215-11:01:17.161] thr=3   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:01:17.199] thr=3   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:01:17.200] thr=3   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:01:17.200] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:01:17.202] thr=3   paramiko.transport: userauth is OK
+DEB [20220215-11:01:17.202] thr=3   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:01:17.202] thr=3   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:01:17.202] thr=3   paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:01:17.202] thr=3   paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:01:17.204] thr=3   paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:01:17.204] thr=3   paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:02:12.929] thr=4   paramiko.transport: starting thread (client mode): 0x3113d7f0
+DEB [20220215-11:02:12.929] thr=4   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:02:12.935] thr=4   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:02:12.935] thr=4   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:02:12.936] thr=4   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:02:12.936] thr=4   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:02:12.936] thr=4   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:02:12.936] thr=4   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:02:12.936] thr=4   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:02:12.936] thr=4   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: client lang: <none>
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: server lang: <none>
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: kex follows: False
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:02:12.937] thr=4   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:02:12.938] thr=4   paramiko.transport: Compression: none
+DEB [20220215-11:02:12.938] thr=4   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:02:12.978] thr=4   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:02:12.978] thr=4   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:02:12.979] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:02:12.979] thr=4   paramiko.transport: userauth is OK
+DEB [20220215-11:02:12.979] thr=4   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:02:12.979] thr=4   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:02:12.979] thr=4   paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:02:12.979] thr=4   paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:02:12.981] thr=4   paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:02:12.981] thr=4   paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:02:17.956] thr=5   paramiko.transport: starting thread (client mode): 0x31107860
+DEB [20220215-11:02:17.957] thr=5   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:02:17.962] thr=5   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:02:17.962] thr=5   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:02:17.963] thr=5   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:02:17.963] thr=5   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:02:17.963] thr=5   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:02:17.963] thr=5   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:02:17.963] thr=5   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:02:17.963] thr=5   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:02:17.963] thr=5   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: client lang: <none>
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: server lang: <none>
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: kex follows: False
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:02:17.964] thr=5   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:02:17.965] thr=5   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:02:17.965] thr=5   paramiko.transport: Compression: none
+DEB [20220215-11:02:17.965] thr=5   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:02:18.005] thr=5   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:02:18.005] thr=5   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:02:18.006] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:02:18.006] thr=5   paramiko.transport: userauth is OK
+DEB [20220215-11:02:18.006] thr=5   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:02:18.006] thr=5   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:02:18.006] thr=5   paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:02:18.007] thr=5   paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:02:18.008] thr=5   paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:02:18.008] thr=5   paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:02:26.501] thr=6   paramiko.transport: starting thread (client mode): 0x311499e8
+DEB [20220215-11:02:26.501] thr=6   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:02:26.506] thr=6   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:02:26.506] thr=6   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:02:26.507] thr=6   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:02:26.507] thr=6   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:02:26.507] thr=6   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: client lang: <none>
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: server lang: <none>
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: kex follows: False
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:02:26.508] thr=6   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:02:26.509] thr=6   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:02:26.509] thr=6   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:02:26.509] thr=6   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:02:26.509] thr=6   paramiko.transport: Compression: none
+DEB [20220215-11:02:26.509] thr=6   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:02:26.550] thr=6   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:02:26.551] thr=6   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:02:26.551] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:02:26.552] thr=6   paramiko.transport: userauth is OK
+DEB [20220215-11:02:26.552] thr=6   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:02:26.552] thr=6   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:02:26.552] thr=6   paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:02:26.552] thr=6   paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:02:26.554] thr=6   paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:02:26.554] thr=6   paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:03:57.391] thr=7   paramiko.transport: starting thread (client mode): 0x31148c88
+DEB [20220215-11:03:57.391] thr=7   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:03:57.398] thr=7   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:03:57.398] thr=7   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:03:57.399] thr=7   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:03:57.399] thr=7   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: client lang: <none>
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: server lang: <none>
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: kex follows: False
+DEB [20220215-11:03:57.400] thr=7   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:03:57.401] thr=7   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:03:57.401] thr=7   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:03:57.401] thr=7   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:03:57.401] thr=7   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:03:57.401] thr=7   paramiko.transport: Compression: none
+DEB [20220215-11:03:57.401] thr=7   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:03:57.442] thr=7   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:03:57.443] thr=7   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:03:57.443] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:03:57.444] thr=7   paramiko.transport: userauth is OK
+DEB [20220215-11:03:57.444] thr=7   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:03:57.444] thr=7   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:03:57.444] thr=7   paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:03:57.444] thr=7   paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:03:57.447] thr=7   paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:03:57.447] thr=7   paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:04:02.819] thr=8   paramiko.transport: starting thread (client mode): 0x31118240
+DEB [20220215-11:04:02.819] thr=8   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:04:02.823] thr=8   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:04:02.823] thr=8   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:04:02.824] thr=8   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: client lang: <none>
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: server lang: <none>
+DEB [20220215-11:04:02.825] thr=8   paramiko.transport: kex follows: False
+DEB [20220215-11:04:02.826] thr=8   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:04:02.826] thr=8   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:04:02.826] thr=8   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:04:02.826] thr=8   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:04:02.826] thr=8   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:04:02.826] thr=8   paramiko.transport: Compression: none
+DEB [20220215-11:04:02.826] thr=8   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:04:02.866] thr=8   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:04:02.866] thr=8   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:04:02.867] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:04:02.867] thr=8   paramiko.transport: userauth is OK
+INF [20220215-11:04:02.867] thr=8   paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:04:09.767] thr=9   paramiko.transport: starting thread (client mode): 0x311530b8
+DEB [20220215-11:04:09.767] thr=9   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:04:09.772] thr=9   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:04:09.772] thr=9   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:04:09.773] thr=9   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:04:09.773] thr=9   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:04:09.773] thr=9   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: client lang: <none>
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: server lang: <none>
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: kex follows: False
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:04:09.774] thr=9   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:04:09.775] thr=9   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:04:09.775] thr=9   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:04:09.775] thr=9   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:04:09.775] thr=9   paramiko.transport: Compression: none
+DEB [20220215-11:04:09.775] thr=9   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:04:09.815] thr=9   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:04:09.816] thr=9   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:04:09.816] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:04:09.817] thr=9   paramiko.transport: userauth is OK
+DEB [20220215-11:04:09.817] thr=9   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:04:09.817] thr=9   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:04:09.817] thr=9   paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:04:09.817] thr=9   paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:04:09.819] thr=9   paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:04:09.819] thr=9   paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:05:59.338] thr=10  paramiko.transport: starting thread (client mode): 0x31148978
+DEB [20220215-11:05:59.339] thr=10  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:05:59.343] thr=10  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:05:59.343] thr=10  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:05:59.344] thr=10  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:05:59.344] thr=10  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:05:59.344] thr=10  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: client lang: <none>
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: server lang: <none>
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: kex follows: False
+DEB [20220215-11:05:59.345] thr=10  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:05:59.346] thr=10  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:05:59.346] thr=10  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:05:59.346] thr=10  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:05:59.346] thr=10  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:05:59.346] thr=10  paramiko.transport: Compression: none
+DEB [20220215-11:05:59.346] thr=10  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:05:59.387] thr=10  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:05:59.387] thr=10  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:05:59.388] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:05:59.388] thr=10  paramiko.transport: userauth is OK
+DEB [20220215-11:05:59.388] thr=10  paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:05:59.389] thr=10  paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:05:59.389] thr=10  paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:05:59.389] thr=10  paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:05:59.390] thr=10  paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:05:59.390] thr=10  paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:06:04.185] thr=11  paramiko.transport: starting thread (client mode): 0x3115aa58
+DEB [20220215-11:06:04.186] thr=11  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:06:04.192] thr=11  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:06:04.192] thr=11  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:06:04.193] thr=11  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:06:04.194] thr=11  paramiko.transport: client lang: <none>
+DEB [20220215-11:06:04.195] thr=11  paramiko.transport: server lang: <none>
+DEB [20220215-11:06:04.195] thr=11  paramiko.transport: kex follows: False
+DEB [20220215-11:06:04.195] thr=11  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:06:04.195] thr=11  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:06:04.195] thr=11  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:06:04.195] thr=11  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:06:04.195] thr=11  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:06:04.195] thr=11  paramiko.transport: Compression: none
+DEB [20220215-11:06:04.196] thr=11  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:06:04.236] thr=11  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:06:04.236] thr=11  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:06:04.237] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:06:04.238] thr=11  paramiko.transport: userauth is OK
+INF [20220215-11:06:04.238] thr=11  paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:06:06.029] thr=12  paramiko.transport: starting thread (client mode): 0x3115a780
+DEB [20220215-11:06:06.029] thr=12  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:06:06.033] thr=12  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:06:06.034] thr=12  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:06:06.034] thr=12  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:06:06.035] thr=12  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:06:06.035] thr=12  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:06:06.035] thr=12  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:06:06.035] thr=12  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:06:06.035] thr=12  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:06:06.035] thr=12  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:06:06.035] thr=12  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:06:06.035] thr=12  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: client lang: <none>
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: server lang: <none>
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: kex follows: False
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: Compression: none
+DEB [20220215-11:06:06.036] thr=12  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:06:06.077] thr=12  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:06:06.078] thr=12  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:06:06.078] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:06:06.079] thr=12  paramiko.transport: userauth is OK
+INF [20220215-11:06:06.080] thr=12  paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:06:06.836] thr=13  paramiko.transport: starting thread (client mode): 0x30ffd588
+DEB [20220215-11:06:06.836] thr=13  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:06:06.841] thr=13  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:06:06.841] thr=13  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:06:06.842] thr=13  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:06:06.842] thr=13  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:06:06.842] thr=13  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:06:06.842] thr=13  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:06:06.842] thr=13  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:06:06.842] thr=13  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:06:06.842] thr=13  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:06:06.842] thr=13  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: client lang: <none>
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: server lang: <none>
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: kex follows: False
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:06:06.843] thr=13  paramiko.transport: Compression: none
+DEB [20220215-11:06:06.844] thr=13  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:06:06.884] thr=13  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:06:06.884] thr=13  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:06:06.884] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:06:06.885] thr=13  paramiko.transport: userauth is OK
+INF [20220215-11:06:06.886] thr=13  paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:07:52.022] thr=14  paramiko.transport: starting thread (client mode): 0x321690f0
+DEB [20220215-11:07:52.023] thr=14  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:07:52.026] thr=14  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:07:52.027] thr=14  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:07:52.027] thr=14  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:07:52.028] thr=14  paramiko.transport: client lang: <none>
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: server lang: <none>
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: kex follows: False
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: Compression: none
+DEB [20220215-11:07:52.029] thr=14  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:07:52.069] thr=14  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:07:52.070] thr=14  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:07:52.070] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:07:52.071] thr=14  paramiko.transport: userauth is OK
+INF [20220215-11:07:52.071] thr=14  paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:07:55.625] thr=15  paramiko.transport: starting thread (client mode): 0x31169160
+DEB [20220215-11:07:55.626] thr=15  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:07:55.630] thr=15  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:07:55.631] thr=15  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:07:55.632] thr=15  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: client lang: <none>
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: server lang: <none>
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: kex follows: False
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:07:55.633] thr=15  paramiko.transport: Compression: none
+DEB [20220215-11:07:55.634] thr=15  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:07:55.674] thr=15  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:07:55.675] thr=15  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:07:55.675] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:07:55.676] thr=15  paramiko.transport: userauth is OK
+DEB [20220215-11:07:55.676] thr=15  paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:07:55.676] thr=15  paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:07:55.676] thr=15  paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:07:55.676] thr=15  paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:07:55.678] thr=15  paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:07:55.678] thr=15  paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:08:17.061] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+ERR [20220215-11:08:17.062] thr=15  paramiko.transport: Secsh channel 0 open FAILED: : Connect failed
+DEB [20220215-11:08:22.215] thr=16  paramiko.transport: starting thread (client mode): 0x3100f470
+DEB [20220215-11:08:22.216] thr=16  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:08:22.222] thr=16  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:08:22.222] thr=16  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:08:22.223] thr=16  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: client lang: <none>
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: server lang: <none>
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: kex follows: False
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: Compression: none
+DEB [20220215-11:08:22.224] thr=16  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:08:22.599] thr=16  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:08:22.600] thr=16  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:08:22.600] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:08:22.601] thr=16  paramiko.transport: userauth is OK
+DEB [20220215-11:08:22.601] thr=16  paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:08:22.601] thr=16  paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:08:22.601] thr=16  paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:08:22.601] thr=16  paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:08:22.603] thr=16  paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:08:22.603] thr=16  paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:08:30.832] thr=17  paramiko.transport: starting thread (client mode): 0x31161748
+DEB [20220215-11:08:30.833] thr=17  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:08:30.838] thr=17  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:08:30.838] thr=17  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:08:30.839] thr=17  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:08:30.839] thr=17  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:08:30.839] thr=17  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:08:30.839] thr=17  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:08:30.839] thr=17  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:08:30.839] thr=17  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: client lang: <none>
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: server lang: <none>
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: kex follows: False
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:08:30.840] thr=17  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:08:30.841] thr=17  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:08:30.841] thr=17  paramiko.transport: Compression: none
+DEB [20220215-11:08:30.841] thr=17  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:08:30.881] thr=17  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:08:30.881] thr=17  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:08:30.882] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:08:30.882] thr=17  paramiko.transport: userauth is OK
+INF [20220215-11:08:30.883] thr=17  paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:09:18.214] thr=18  paramiko.transport: starting thread (client mode): 0x311484e0
+DEB [20220215-11:09:18.214] thr=18  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:09:18.217] thr=18  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:09:18.218] thr=18  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:09:18.218] thr=18  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: client lang: <none>
+DEB [20220215-11:09:18.219] thr=18  paramiko.transport: server lang: <none>
+DEB [20220215-11:09:18.220] thr=18  paramiko.transport: kex follows: False
+DEB [20220215-11:09:18.220] thr=18  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:09:18.220] thr=18  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:09:18.220] thr=18  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:09:18.220] thr=18  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:09:18.220] thr=18  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:09:18.220] thr=18  paramiko.transport: Compression: none
+DEB [20220215-11:09:18.220] thr=18  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:09:18.260] thr=18  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:09:18.261] thr=18  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:09:18.261] thr=2   paramiko.transport: Attempting public-key auth...
+DEB [20220215-11:09:18.262] thr=18  paramiko.transport: userauth is OK
+DEB [20220215-11:09:18.262] thr=18  paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20220215-11:09:18.262] thr=18  paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20220215-11:09:18.262] thr=18  paramiko.transport: Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEB [20220215-11:09:18.262] thr=18  paramiko.transport: NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+DEB [20220215-11:09:18.264] thr=18  paramiko.transport: Authentication type (publickey) not permitted.
+DEB [20220215-11:09:18.264] thr=18  paramiko.transport: Allowed methods: ['']
+DEB [20220215-11:22:02.366] thr=19  paramiko.transport: starting thread (client mode): 0x32155438
+DEB [20220215-11:22:02.367] thr=19  paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:22:02.372] thr=19  paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:22:02.372] thr=19  paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:22:02.373] thr=19  paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:22:02.373] thr=19  paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:22:02.373] thr=19  paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:22:02.373] thr=19  paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:22:02.373] thr=19  paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:22:02.373] thr=19  paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:22:02.373] thr=19  paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:22:02.373] thr=19  paramiko.transport: client compress: zlib, none
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: server compress: zlib, none
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: client lang: <none>
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: server lang: <none>
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: kex follows: False
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:22:02.374] thr=19  paramiko.transport: Compression: none
+DEB [20220215-11:22:02.375] thr=19  paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:22:02.415] thr=19  paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:22:02.416] thr=19  paramiko.transport: Switch to new keys ...
+DEB [20220215-11:22:02.416] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:22:02.417] thr=19  paramiko.transport: userauth is OK
+INF [20220215-11:22:02.417] thr=19  paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:31:23.900] thr=1   paramiko.transport: starting thread (client mode): 0x2437b4a8
+DEB [20220215-11:31:23.900] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:31:23.905] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:31:23.905] thr=1   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: client lang: <none>
+DEB [20220215-11:31:23.907] thr=1   paramiko.transport: server lang: <none>
+DEB [20220215-11:31:23.908] thr=1   paramiko.transport: kex follows: False
+DEB [20220215-11:31:23.908] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:31:23.908] thr=1   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:31:23.908] thr=1   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:31:23.908] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:31:23.908] thr=1   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:31:23.908] thr=1   paramiko.transport: Compression: none
+DEB [20220215-11:31:23.908] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:31:24.161] thr=1   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:31:24.162] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:31:24.162] thr=2   paramiko.transport: Adding ssh-rsa host key for 192.168.1.39: b'eef73aae381edd02453f217879c2679f'
+DEB [20220215-11:31:24.169] thr=1   paramiko.transport: userauth is OK
+INF [20220215-11:31:24.169] thr=1   paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:32:11.788] thr=3   paramiko.transport: starting thread (client mode): 0x25440390
+DEB [20220215-11:32:11.789] thr=3   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:32:11.792] thr=3   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:32:11.793] thr=3   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: client lang: <none>
+DEB [20220215-11:32:11.794] thr=3   paramiko.transport: server lang: <none>
+DEB [20220215-11:32:11.795] thr=3   paramiko.transport: kex follows: False
+DEB [20220215-11:32:11.795] thr=3   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:32:11.795] thr=3   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:32:11.795] thr=3   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:32:11.795] thr=3   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:32:11.795] thr=3   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:32:11.795] thr=3   paramiko.transport: Compression: none
+DEB [20220215-11:32:11.795] thr=3   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:32:11.835] thr=3   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:32:11.836] thr=3   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:32:11.836] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:32:11.837] thr=3   paramiko.transport: userauth is OK
+INF [20220215-11:32:11.837] thr=3   paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:32:34.148] thr=4   paramiko.transport: starting thread (client mode): 0x25440240
+DEB [20220215-11:32:34.148] thr=4   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:32:34.149] thr=4   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:32:34.149] thr=4   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:32:34.150] thr=4   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:32:34.150] thr=4   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:32:34.150] thr=4   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:32:34.150] thr=4   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:32:34.150] thr=4   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:32:34.150] thr=4   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:32:34.150] thr=4   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:32:34.150] thr=4   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: client lang: <none>
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: server lang: <none>
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: kex follows: False
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:32:34.151] thr=4   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:32:34.152] thr=4   paramiko.transport: Compression: none
+DEB [20220215-11:32:34.152] thr=4   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:32:34.191] thr=4   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:32:34.192] thr=4   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:32:51.485] thr=5   paramiko.transport: starting thread (client mode): 0x2544e6a0
+DEB [20220215-11:32:51.485] thr=5   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:32:51.489] thr=5   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:32:51.489] thr=5   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:32:51.490] thr=5   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:32:51.490] thr=5   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: client lang: <none>
+DEB [20220215-11:32:51.491] thr=5   paramiko.transport: server lang: <none>
+DEB [20220215-11:32:51.492] thr=5   paramiko.transport: kex follows: False
+DEB [20220215-11:32:51.492] thr=5   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:32:51.492] thr=5   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:32:51.492] thr=5   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:32:51.492] thr=5   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:32:51.492] thr=5   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:32:51.492] thr=5   paramiko.transport: Compression: none
+DEB [20220215-11:32:51.492] thr=5   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:32:51.533] thr=5   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:32:51.533] thr=5   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:32:51.534] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:32:51.535] thr=5   paramiko.transport: userauth is OK
+INF [20220215-11:32:51.535] thr=5   paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:32:58.827] thr=6   paramiko.transport: starting thread (client mode): 0x25473d30
+DEB [20220215-11:32:58.827] thr=6   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:32:58.831] thr=6   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:32:58.831] thr=6   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:32:58.832] thr=6   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:32:58.832] thr=6   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:32:58.832] thr=6   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:32:58.832] thr=6   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:32:58.832] thr=6   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:32:58.832] thr=6   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:32:58.833] thr=6   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:32:58.833] thr=6   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:32:58.833] thr=6   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:32:58.833] thr=6   paramiko.transport: client lang: <none>
+DEB [20220215-11:32:58.833] thr=6   paramiko.transport: server lang: <none>
+DEB [20220215-11:32:58.833] thr=6   paramiko.transport: kex follows: False
+DEB [20220215-11:32:58.833] thr=6   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:32:58.833] thr=6   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:32:58.834] thr=6   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:32:58.834] thr=6   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:32:58.834] thr=6   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:32:58.834] thr=6   paramiko.transport: Compression: none
+DEB [20220215-11:32:58.834] thr=6   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:32:58.874] thr=6   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:32:58.875] thr=6   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:33:18.862] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+ERR [20220215-11:33:18.863] thr=6   paramiko.transport: Secsh channel 0 open FAILED: : Connect failed
+DEB [20220215-11:33:57.405] thr=7   paramiko.transport: starting thread (client mode): 0x254b27f0
+DEB [20220215-11:33:57.406] thr=7   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:33:57.410] thr=7   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:33:57.410] thr=7   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:33:57.411] thr=7   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:33:57.411] thr=7   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:33:57.411] thr=7   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:33:57.411] thr=7   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:33:57.411] thr=7   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: client lang: <none>
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: server lang: <none>
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: kex follows: False
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:33:57.412] thr=7   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:33:57.413] thr=7   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:33:57.413] thr=7   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:33:57.413] thr=7   paramiko.transport: Compression: none
+DEB [20220215-11:33:57.413] thr=7   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:33:57.453] thr=7   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:33:57.453] thr=7   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:33:57.453] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:33:57.455] thr=7   paramiko.transport: userauth is OK
+INF [20220215-11:33:57.455] thr=7   paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:34:10.200] thr=8   paramiko.transport: starting thread (client mode): 0x254855f8
+DEB [20220215-11:34:10.200] thr=8   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:34:10.205] thr=8   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:34:10.205] thr=8   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:34:10.206] thr=8   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: client lang: <none>
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: server lang: <none>
+DEB [20220215-11:34:10.207] thr=8   paramiko.transport: kex follows: False
+DEB [20220215-11:34:10.208] thr=8   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:34:10.208] thr=8   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:34:10.208] thr=8   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:34:10.208] thr=8   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:34:10.208] thr=8   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:34:10.208] thr=8   paramiko.transport: Compression: none
+DEB [20220215-11:34:10.208] thr=8   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:34:10.248] thr=8   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:34:10.249] thr=8   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:34:10.249] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:34:10.250] thr=8   paramiko.transport: userauth is OK
+INF [20220215-11:34:10.250] thr=8   paramiko.transport: Authentication (password) failed.
+DEB [20220215-11:42:46.786] thr=1   paramiko.transport: starting thread (client mode): 0x4ef47c18
+DEB [20220215-11:42:46.786] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.9.2
+DEB [20220215-11:42:46.790] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-WeOnlyDo-wodFTPD 3.3.0.424
+INF [20220215-11:42:46.790] thr=1   paramiko.transport: Connected (version 2.0, client WeOnlyDo-wodFTPD)
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: kex algos: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: server key: ssh-rsa
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: client encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: server encrypt: aes128-cbc, aes128-ctr, 3des-cbc, blowfish-cbc, aes192-cbc, aes192-ctr, aes256-cbc, aes256-ctr, rijndael128-cbc, rijndael192-cbc, rijndael256-cbc, rijndael-cbc@lysator.liu.se
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: client mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: server mac: hmac-sha1, hmac-md5, none
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: client compress: zlib, none
+DEB [20220215-11:42:46.792] thr=1   paramiko.transport: server compress: zlib, none
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: client lang: <none>
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: server lang: <none>
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: kex follows: False
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: Kex: diffie-hellman-group14-sha1
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: HostKey: ssh-rsa
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: MAC: hmac-sha1
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: Compression: none
+DEB [20220215-11:42:46.793] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20220215-11:42:46.833] thr=1   paramiko.transport: kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEB [20220215-11:42:46.834] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20220215-11:42:46.835] thr=2   paramiko.transport: Attempting password auth...
+DEB [20220215-11:42:46.835] thr=1   paramiko.transport: userauth is OK
+INF [20220215-11:42:46.836] thr=1   paramiko.transport: Authentication (password) failed.
