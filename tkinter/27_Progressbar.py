@@ -8,7 +8,6 @@ window.resizable(False, False)
 
 progressbar=tkinter.ttk.Progressbar(window, maximum=100, mode="indeterminate")
 progressbar.pack()
-
 progressbar.start(50)
 
 window.mainloop()
