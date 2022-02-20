@@ -3,6 +3,8 @@ import win32gui
 import win32api
 import win32con
 
+# WIN 32 TEST
+
 # WM_CREATE가 안생겨서 만든 WM_CREATE 대용 메시지
 UM_CREATE = win32con.WM_USER + 1
 
