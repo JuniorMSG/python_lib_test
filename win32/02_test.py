@@ -81,15 +81,18 @@ def SendReturn(hwnd):
     time.sleep(0.01)
     win32api.PostMessage(hwnd, win32con.WM_KEYUP, win32con.VK_RETURN, 0)
 
+def open_friendroom():
+    # 친구 검색
+    hwndkakao = win32gui.FindWindow(None, "카카오톡")
+    hwndkakao_edit1 = win32gui.FindWindowEx(hwndkakao, None, "EVA_ChildWindow", None)
+    hwndkakao_edit2_1 = win32gui.FindWindowEx(hwndkakao_edit1, None, "EVA_Window", None)
+    hwndkakao_edit3 = win32gui.FindWindowEx(hwndkakao_edit2_1, None, "Edit", None)
+
+    win32gui.ShowWindow(hwndkakao_edit2_1, 5)
+    win32gui.SetForegroundWindow(hwndkakao_edit2_1)
 
 # # 채팅방 열기
 def open_chatroom():
-    # 친구 검색
-    # hwndkakao = win32gui.FindWindow(None, "카카오톡")
-    # hwndkakao_edit1 = win32gui.FindWindowEx(hwndkakao, None, "EVA_ChildWindow", None)
-    # hwndkakao_edit2_1 = win32gui.FindWindowEx(hwndkakao_edit1, None, "EVA_Window", None)
-    # hwndkakao_edit3 = win32gui.FindWindowEx(hwndkakao_edit2_1, None, "Edit", None)
-
     # 채팅방 목록 검색하는 Edit (채팅방이 열려있지 않아도 전송 가능하기 위하여)
     hwndkakao = win32gui.FindWindow(None, "카카오톡")
     hwndkakao_edit1 = win32gui.FindWindowEx( hwndkakao, None, "EVA_ChildWindow", None)
